@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="lec_4.c">
+    <ClCompile Include="find_max.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
