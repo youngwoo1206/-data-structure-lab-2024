@@ -1,3 +1,2 @@
-﻿  ComplexTest.cpp
-C:\Users\USER\Documents\data-structure-lab-2024\Chap02_Array_Class\Chap02_Class_Example\ComplexTest.cpp(3,1): warning C4326: 'main'의 반환 형식이 'int'이어야 하는데 'void'입니다.
+﻿  Rect.cpp
   Chap02_Class_Example.vcxproj -> C:\Users\USER\Documents\data-structure-lab-2024\Chap02_Array_Class\x64\Debug\Chap02_Class_Example.exe
