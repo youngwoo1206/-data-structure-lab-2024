@@ -11,6 +11,6 @@ public:
 	void speedUp() {
 		if (bTurbo)
 			speed += 20;
-		else Car::speedUp();
+		else SportCar::speedUp();
 	}
 };

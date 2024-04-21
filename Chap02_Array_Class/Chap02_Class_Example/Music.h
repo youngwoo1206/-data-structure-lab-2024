@@ -6,8 +6,8 @@
 using namespace std;
 
 // Music class
-class Music {
-private:
+class Music {//클래스명
+private://멤버변수, 필드
     string title;
     string artist;
     string album;
@@ -15,7 +15,7 @@ private:
 
 public:
     //생성자(Construntor)
-    Music(string title, string artist, string album, int year) {
+    Music(string title, string artist, string album, int year) { //매개변수 title, artist, album, year
         this->title = title;
         this->artist = artist;
         this->album = album;
@@ -25,16 +25,16 @@ public:
     ~Music() {}
 
     // Getters
-    string getTitle() { return title; }
+    string getTitle() { return title; }//멤버함수, 메소드
     string getArtist() { return artist; }
     string getAlbum() { return album; }
     int getYear() { return year; }
 };
 
 // MusicStreamingService class
-class MusicStreamingService {
+class MusicStreamingService {//클래스명
 private:
-    string serviceName;
+    string serviceName;//멤버변수, 필드
     vector<Music> musicList;
 
 public:

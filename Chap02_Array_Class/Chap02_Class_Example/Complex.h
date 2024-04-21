@@ -1,11 +1,11 @@
 #pragma once
 #include <cstdio>
-class Complex
+class Complex //클래스 명
 {
-	double real;
+	double real; //멤버변수, 필드
 	double imag;
 public:
-	void set(double r, double i) {
+	void set(double r, double i) { // 멤버함수, 메소드
 		real = r;
 		imag = i;
 	}

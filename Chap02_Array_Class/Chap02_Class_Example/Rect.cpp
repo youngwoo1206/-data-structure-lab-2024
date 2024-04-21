@@ -1,29 +1,50 @@
 #include <cstdio>
-//#include "Rectangle.h"
-//#include "SmartHome.h"
+#include "Rectangle.h"
+#include "SmartHome.h"
 #include "Music.h"
+
+/*
 int main()
 {
-	/*Rectangle r(10, 20);
-	double perimeter = r.getPerimeter();
-	std::cout << "Rectangle 1:" << std::endl;
-	std::cout << "Area:" << r.getArea() << std::endl;
-	std::cout << "Area:" << r.getArea() << std::endl;
-	std::cout << "Perimeter:" << perimeter << std::endl;
-	std::cout << "is Square?:" << std::boolalpha << r.isSquare() << std::endl;*/
+	Rectangle a(10, 20); //a按眉 / (10, 20) 牢荐
+	std::cout << "Rectangle 1" << std::endl;
+	std::cout << "Area:" << a.getArea() << std::endl;
+	std::cout << "Area:" << a.getArea() << std::endl;
+	std::cout << "Perimeter:" << a.getPerimeter() << std::endl;
+	std::cout << "is Square?:" << std::boolalpha << a.isSquare() << std::endl;
+
+	Rectangle b(20, 20);//b 按眉 / (20, 20)牢荐
+	std::cout << "Rectangle 2" << std::endl;
+	std::cout << "Area:" << b.getArea() << std::endl;
+	std::cout << "Area:" << b.getArea() << std::endl;
+	std::cout << "Perimeter:" << b.getPerimeter() << std::endl;
+	std::cout << "is Square?:" << std::boolalpha << b.isSquare() << std::endl;
+}
+*/
+	
 
 
 
-	/*
-	//SmartHome Class
-	SmartHome myHome("全康快", 23, 40, true);
-	myHome printStatus();
-	*/
+
+//SmartHome Class
+/*
+int main()
+{
+	SmartHome myHome("全康快", 23, 40, true);//按眉 myHome // 牢荐 ("全康快", 23, 40, true)
+	myHome. printStatus();
+	myHome.setTemperature(500);
+	myHome.printStatus();
+	
+}
+*/
 
 
 
-	//Music Streaming Service 
-	MusicStreamingService myService("Spotify");
+//Music Streaming Service 
+
+int main()
+{
+	MusicStreamingService myService("Spotify"); //按眉 mySurvice / 牢荐"Spotify"
 	myService.addMusic("VIBE", "Taeyang", "Album", 2023);
 	myService.addMusic("Ditto", "NewJeans", "Album", 2023);
 	myService.addMusic("Attention", "NewJeans", "Album", 2023);
@@ -56,3 +77,4 @@ int main()
 		cout << "not found" << endl;
 	}
 }
+
