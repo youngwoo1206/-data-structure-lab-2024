@@ -1,1 +1,5 @@
-﻿
+﻿  lec.13.c
+C:\Users\USER\Documents\data-structure-lab-2024\lec11.c\lec11.c\lec.13.c(20,11): warning C4098: 'push': 'void' 함수에서 값을 반환하고 있습니다.
+C:\Users\USER\Documents\data-structure-lab-2024\lec11.c\lec11.c\lec.13.c(55,2): warning C4013: 'prinf'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+lec.13.obj : error LNK2019: prinfmain 함수에서 참조되는 확인할 수 없는 외부 기호
+C:\Users\USER\Documents\data-structure-lab-2024\lec11.c\x64\Debug\lec11.c.exe : fatal error LNK1120: 1개의 확인할 수 없는 외부 참조입니다.
