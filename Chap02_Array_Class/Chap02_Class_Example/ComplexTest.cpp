@@ -1,7 +1,7 @@
 #include "Complex.h"
 void main()
 {
-	Complex a, b, c;
+	Complex a, b, c; //a, b, c °´Ã¼
 	a.read("A=");
 	b.read("B=");
 	c.add(a, b);

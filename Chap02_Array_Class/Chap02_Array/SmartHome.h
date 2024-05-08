@@ -1,12 +1,11 @@
 #pragma once
-#pragma once
 #include <iostream> //input output 쉽게 사용 (cout사용시 필요)
 #include <string> //문자열
 //#include <vector>
 using namespace std; // std 라이브러리 namespasce 설정 - include와 std를 생략할 수 있게 해줌
 
 // SmartHome
-class SmartHome {
+class SmartHome { //클래스명
 private:
     //std::vector1
     // 클래스 변수들(member variable, attribute, filed) 시험 무조건
@@ -18,7 +17,7 @@ public:
     //클래스 함수들(member function, method) 시험 무조건
     //생성자
     SmartHome(string owner, int temperature, int humidity, bool security) { //매개변수(parameter) owner, temperature...
-        this->owner = owner;
+        this->owner = owner; //생성자 내에서 멤버변수 초기화
         this->temperature = temperature;
         this->humidity = humidity;
         this->security = security;
